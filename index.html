@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>String Exercise</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	
+	<div>
+		<div class="text-center bg-dark pt-2 pb-2">
+			<h2 class="text-white">String suffixes similarities</h2>
+		</div>
+	<div class="bg-light pt-3">
+		<div class="container">
+			<div class="row row d-inline-block">
+				<h5><b>Exercise</b></h5>
+				<p>
+					For two strings A and B, we define the similarity of the strings to be the length of the longest prefix common to both
+					strings. For example, the similarity of strings "abc" and "abd" is 2, while the similarity of strings "aaa" and "aaab" is 3.
+					Calculate the sum of similarities of a string S with each of it's suffixes.
+				</p>
+				<h5><b>Input Format</b></h5>
+					<ul>
+						<li>The first line contains the number of test cases t. </br></li>
+						<li>Each of the next t lines contains a string to process, <b>S</b>.</li>
+						<li><b>s</b> is composed of characters in the range ascii[a-z]</li>
+					</ul>
+				<p>
+					<h5><b>Constraints</b></h5>
+					<ul>
+						<li>1 &le; t &le; 10</li>
+						<li>1 &le; |s| &le; 100000</li>
+					</ul>
+				</p>
+				<h5><b>Output Format</b></h5>
+				<p class="box">Output <b>t</b> lines, each containing the answer for the corresponding test case.</p>
+			</div>
+			<hr class="bg-light">
+			<div class="row pt-3 pb-5 justify-content-left d-block">
+				<div class="row pb-1">
+					<div class="input-group flex-nowrap">
+					  <div class="input-group-prepend">
+					    <span class="input-group-text" id="addon-wrapping">Amount of test cases</span>
+					  </div>
+					  <input id="ammountOfInputs" type="text" class="form-control" placeholder="Minimum amount is 1, maximum amount is 10." aria-label="Username" aria-describedby="addon-wrapping">
+					</div>
+				</div>
+				<hr>
+				<div id="content-row" class="row d-block pb-1">
+					
+				</div>
+				<div class="row pt-2">
+					<button class="btn btn-secondary" onclick="main()"> Calculate</button>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<footer class="bg-dark pt-3 pb-3">
+		<div class="text-center">
+			<h5 class="text-white"> Made By Sandino Sanchez</h5>
+			<a clas="text-white" href="https://github.com/sandinosanchez/StringExercises">GitHub</a>
+		</div>
+		
+	</footer>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script language="JavaScript" src="main.js"></script>
+</body>
+
+</html>
