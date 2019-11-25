@@ -11,8 +11,8 @@ An example of a worst case will be where all the letters are the same(i.e, input
 The minor the number of suffixes that matches the original input is, the best result in time the algorithm will return.
 
 ## Futre Imporvments
-Re-think the logic of the algorithm to wrok in a linear time with n inputs.
-Add error handling, and checking of some trivial constraints.
+- Re-think the logic of the algorithm to wrok in a linear time with n inputs.
+-Add error handling, and checking of some trivial constraints.
 
 ## References
 - [YouTube](https://www.youtube.com/watch?v=CpZh4eF8QBw)
