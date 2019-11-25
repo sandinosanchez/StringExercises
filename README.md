@@ -10,9 +10,13 @@ The main loop iterates throug this array, and for each string the algorithm comp
 - An example of a worst case will be where all the letters are the same(i.e, input: aaaaaaaaaaa ).
 - The minor the number of suffixes that matches the original input is, the best result in time the algorithm will return.
 
-## Futre Imporvments
+## Future Imporvments
 - Re-think the logic of the algorithm to wrok in a linear time with n inputs.
 - Add error handling, and checking of some trivial constraints.
+
+## Technologies used
+- [Bootstrap](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/)
 
 ## References
 - [YouTube](https://www.youtube.com/watch?v=CpZh4eF8QBw)
