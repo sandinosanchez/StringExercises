@@ -16,3 +16,8 @@ The minor the number of suffixes that matches the original input is, the best re
 # Futre Imporvments
 Re-think the logic of the algorithm to wrok in a linear time with n inputs.
 Add error handling, and checking of some trivial constraints.
+
+# References
+[YouTube] (https://www.youtube.com/watch?v=CpZh4eF8QBw)
+[Google] (https://ivanyu.me/blog/2013/10/15/z-algorithm/)
+
